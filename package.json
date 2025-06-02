@@ -4,7 +4,7 @@
   "description": "Proyecto del módulo de Frontend PRO del Bootcamp de Web de KeepCoding.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
