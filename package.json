@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:watchAll": "jest --watchAll",
+    "test:list": "jest --listTests",
+    "test:json": "jest --json"
   },
   "keywords": [],
   "author": "",
