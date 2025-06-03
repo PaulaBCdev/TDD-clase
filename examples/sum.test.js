@@ -38,6 +38,7 @@ describe("Funcion sum", () => {
         const a = Math.random() * -1;
         const b = Math.random() * -1;
         expect(suma(a, b)).toBeLessThanOrEqual(0);
+        expect(suma(-2, -6)).toBeNegative();
       }
     });
   });
